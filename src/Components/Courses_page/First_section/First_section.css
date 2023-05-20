@@ -1,0 +1,141 @@
+.first_section{
+    width: 1920px;
+    height: 546px;
+    left: calc(50% - 1920px/2);
+    padding: 100px 460px 60px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://trustmyscience.com/wp-content/uploads/2021/05/quand-ia-apprend-creer-elle-meme-couv-1155x770.jpeg) no-repeat;
+    backdrop-filter: blur(3.5px);
+    display: flex;
+    position: absolute;
+    background-size: 100% auto;
+    
+}
+
+.first_section_textblock{
+    width: 1000px;
+    height: 426px;
+    gap: 100px;
+    align-items: center;
+}
+
+.first_section_textblock_header{
+    width: 424px;
+    height: 39px;
+    gap: 20px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.first_section_textblock_direction{
+    width: 176px;
+    height: 39px;
+    display: flex;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 25px;
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+}
+.first_section_textblock_direction p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+   
+    color: #FFFFFF;
+    width: 156px;
+    height: 19px;
+}
+
+.first_section_textblock_teacher{
+    padding: 10px;
+    gap: 10px;
+
+    width: 137px;
+    height: 39px;
+
+    border: 1.5px solid #FFFFFF;
+    border-radius: 25px;
+    align-items: center;
+}
+.first_section_textblock_teacher p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* Blue (tolko svetlee) */
+    
+    color: #529FD1;
+    width: 117px;
+    height: 19px;
+}
+
+.first_section_textblock_university{
+    padding: 10px;
+    gap: 10px;
+
+    width: 71px;
+    height: 39px;
+
+    border: 1.5px solid #FFFFFF;
+    border-radius: 25px;
+}
+.first_section_textblock_university p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* Blue (tolko svetlee) */
+   
+    color: #529FD1;
+    width: 51px;
+    height: 19px;
+
+}
+
+.first_section_textblock_maintext{
+    padding: 0px;
+    gap: 25px;
+    padding-top: 30px;
+    width: 1000px;
+    height: 173px;
+}
+.first_section_textblock_maintext_title{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 82px;
+    /* identical to box height */
+    text-align: center;
+    
+    color: #529FD1;
+}
+.first_section_textblock_maintext_description{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    padding-top: 25px;
+
+    color: #FFFFFF;
+    width: 1000px;
+    height: 66px;
+}
+
+.first_section_textblock_footer{
+    gap: 20px;
+    align-items: center;
+    padding-top: 100px;
+    width: 299px;
+    height: 94px;
+    text-align: center;
+    margin: 0 auto;
+}
+.first_section_textblock_footer p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    width: 299px;
+    height: 19px;
+    /* White */
+    padding-top: 20px;
+    white-space: nowrap;
+    color: #FFFFFF;
+}

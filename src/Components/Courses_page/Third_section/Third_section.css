@@ -1,0 +1,52 @@
+/* Блок черный квадрат */
+.programm_course_block{
+    display: flex;
+    position: relative;
+    padding: 100px 260px;
+    gap: 10px;  
+    top: 3321px;
+    margin: 0 auto;
+    width: 1920px;  
+    height: 1200px;
+    background: #1B1B1B;
+}
+.programm_course_block_content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    width: 1400px;
+    height: 1000px;
+
+}
+.programm_course_block_content_description{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    width: 650px;
+    height: 96px;
+
+}
+.programm_course_block_content_description h1{
+    width: 618px;
+    height: 48px;
+    white-space: nowrap;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+.programm_course_block_content_description p{
+    width: 650px;
+    height: 38px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}

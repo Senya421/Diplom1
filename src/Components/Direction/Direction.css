@@ -1,0 +1,37 @@
+.Card{
+    position: relative;
+    width: 320px;
+    height: 250px;
+    border-radius: 12px;
+}
+
+.Card img{
+    width: 320px;
+    height: 250px;
+    border-radius: 12px;
+    filter: brightness(50%);
+}
+
+.Card img:hover{
+    color: aqua;
+    border: 3px solid #529FD1;
+    filter: brightness(35%);
+    transition: all 0.3s ease;
+}
+
+
+.CardText{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.CardText p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+}

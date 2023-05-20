@@ -1,0 +1,83 @@
+.Carousel_card{
+    width: 440px;
+    height: 404px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    position: relative;
+    
+}
+
+.Carousel_card_header{
+    width: 400px;
+    height: 54px;
+    padding: 20px;
+    gap: 5px;
+    
+}
+.Carousel_card_header p{
+    width: 400px;
+    height: 22px;
+    
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    
+    color: #999999;
+}
+.Carousel_card_header h2{
+    width: 400px;
+    height: 27px;
+    margin-top: 5px;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #111111;
+}
+.Carousel_card_image img{
+    width: 400px;
+    height: 200px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+.Carousel_card_image{
+    margin: 20px;
+}
+.Carousel_card_footer{
+    width: 400px;
+    height: 70px;
+    margin: 20px;
+    gap: 5px;
+
+    display: flex;
+}
+.Carousel_card_footer_text{
+    width: 292px;
+    height: 51px;
+    
+    
+}
+.Carousel_card_footer_text h2{
+    width: 292px;
+    height: 27px;
+
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #111111;
+}
+.Carousel_card_footer_text p{
+    width: 292px;
+    height: 19px;
+    
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    
+    color: #999999;
+
+}
+.Carousel_card_footer img{
+    width: 88px;
+    height: 70px;
+    float: right;
+}

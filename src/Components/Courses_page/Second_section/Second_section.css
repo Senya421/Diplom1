@@ -1,0 +1,818 @@
+/* первый блок с мозгами */
+.second_section{
+    position: absolute;
+    height: 2322px;
+    left: 260px;
+    right: 260px;
+    top: 849px;
+    display: flex;
+    flex-direction: column; 
+    gap: 150px;
+
+}
+
+.second_section_firstblock{
+    width: 1400px;
+    height: 275px;
+    display: flex;
+    gap: 40px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.second_section_firstblock h1{
+    width: 1400px;
+    height: 55px;   
+
+}
+.second_section_firstblock_items{
+    
+    gap: 20px;
+    flex-direction: column;
+    width: 1400px;
+    height: 180px;
+    display: flex;
+}
+.second_section_firstblock_items_first_line{
+    gap: 40px;
+    display: flex;
+    width: 1400px;
+    height: 80px;
+}
+
+.second_section_firstblock_items_first_line_firstitem{
+    gap: 30px;
+    align-items: center;
+    display: flex;
+    width: 440px;
+    height: 80px;
+}
+.second_section_firstblock_items_first_line_firstitem p{
+    width: 330px;
+    height: 48px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+
+}
+.second_section_firstblock_items_first_line_seconditem{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 440px;
+    height: 80px;
+}
+.second_section_firstblock_items_first_line_seconditem p{
+    width: 330px;
+    height: 24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+
+}
+.second_section_firstblock_items_first_line_thirditem{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 440px;
+    height: 80px;
+}
+.second_section_firstblock_items_first_line_thirditem p{
+    width: 330px;
+    height: 72px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+
+    color: #000000;
+
+}
+
+.second_section_firstblock_items_second_line{
+    display: flex;
+    gap: 40px;
+
+    width: 920px;
+    height: 80px;
+
+}
+
+.second_section_firstblock_items_second_line_firstitem{
+    display: flex;
+
+    align-items: center;
+
+    gap: 30px;
+
+    width: 440px;
+    height: 80px;
+
+}
+.second_section_firstblock_items_second_line_firstitem p{
+    width: 330px;
+    height: 48px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+.second_section_firstblock_items_second_line_seconditem{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 440px;
+    height: 80px;
+}
+.second_section_firstblock_items_second_line_seconditem p{
+    width: 330px;
+    height: 48px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+
+}
+
+/* Второй блок с уточкамиы */
+/* Первая уточка */
+.second_section_secondblock{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0 auto;
+    width: 1400px;
+    height: 362px;
+}
+.second_section_secondblock_items{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+    width: 1400px;
+    height: 267px;
+}
+.second_section_secondblock_items_firstitem{
+    display: flex;
+    flex-direction: row;
+
+    gap: 40px;
+
+    width: 440px;
+    height: 267px;
+
+}
+.second_section_secondblock_items_firstitem_card{
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+
+    width: 440px;
+    height: 267px;
+}
+
+.second_section_secondblock_items_firstitem_card_imgtext{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+    width: 440px;
+    height: 120px;
+    
+}
+.second_section_secondblock_items_firstitem_card_imgtext p{
+    width: 280px;
+    height: 33px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+.second_section_secondblock_items_firstitem_card_text{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 10px;
+    gap: 10px;
+
+    width: 440px;
+    height: 132px;
+}
+.second_section_secondblock_items_firstitem_card_text p{
+    width: 420px;
+    height: 132px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #000000;
+
+}
+/* Вторая уточка */
+
+.second_section_secondblock_items_seconditem_card{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    width: 440px;
+    height: 267px;
+}
+.second_section_secondblock_items_seconditem_card_imgtext{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+    width: 440px;
+    height: 120px;
+}
+.second_section_secondblock_items_seconditem_card_imgtext p{
+    width: 280px;
+    height: 33px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+.second_section_secondblock_items_seconditem_card_text{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 10px;
+    gap: 10px;
+
+    width: 440px;
+    height: 132px
+}
+.second_section_secondblock_items_seconditem_card_text p{
+    width: 420px;
+    height: 132px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #000000;
+}
+
+/* Третья уточка */
+.second_section_secondblock_items_thirditem_card{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    width: 440px;
+    height: 245px;
+}
+.second_section_secondblock_items_thirditem_card_imgtext{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+    width: 440px;
+    height: 120px;
+}
+.second_section_secondblock_items_thirditem_card_imgtext p{
+    width: 280px;
+    height: 99px;
+    
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    
+    color: #000000;
+}
+.second_section_secondblock_items_thirditem_card_text{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 10px;
+    gap: 10px;
+
+    width: 440px;
+    height: 110px;
+
+}
+.second_section_secondblock_items_thirditem_card_text p{
+    width: 420px;
+    height: 110px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #000000;
+}
+
+
+/* Третьи блок с цифрами */
+/* Цифра 1 */
+.second_section_thirdblock{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 40px;
+    
+    width: 1400px;
+    height: 479px;
+}
+.second_section_thirdblock_items{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 40px;
+
+    width: 1400px;
+    height: 384px;
+
+}
+.second_section_thirdblock_items_first_line{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+    width: 1400px;
+    height: 172px;
+}
+.second_section_thirdblock_items_first_line_firstitem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 40px;
+
+    width: 440px;
+    height: 172px;
+}
+.second_section_thirdblock_items_first_line_firstitem img{
+    width: 82px;
+    height: 172px;
+
+    font-family: 'Vampiro One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 172px;
+    line-height: 100%;
+    color: #A8CFE8;
+}
+.second_section_thirdblock_items_first_line_firstitem_text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 318px;
+    height: 69px;
+}
+.second_section_thirdblock_items_first_line_firstitem_text h3{
+    width: 318px;
+    height: 27px;
+    
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    
+    color: #000000;
+    
+}
+.second_section_thirdblock_items_first_line_firstitem_text p{
+    width: 318px;
+    height: 22px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+/* Цифра 2 */
+.second_section_thirdblock_items_first_line_seconditem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+
+    width: 440px;
+    height: 172px;
+
+}
+.second_section_thirdblock_items_first_line_seconditem img{
+    width: 105px;
+    height: 172px;
+    font-family: 'Vampiro One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 172px;
+    line-height: 100%;
+    color: #529FD1;
+}
+.second_section_thirdblock_items_first_line_seconditem_text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    width: 295px;
+    height: 118px;
+    
+}
+.second_section_thirdblock_items_first_line_seconditem_text h3{
+    width: 295px;
+    height: 54px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+.second_section_thirdblock_items_first_line_seconditem_text p{
+    width: 295px;
+    height: 44px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+/* Цифра 3 */
+.second_section_thirdblock_items_first_line_thirdditem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+
+    width: 440px;
+    height: 172px;
+}
+.second_section_thirdblock_items_first_line_thirdditem img{
+    width: 103px;
+    height: 172px;
+    font-family: 'Vampiro One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 172px;
+    line-height: 100%;
+    color: #173FA6;
+}
+.second_section_thirdblock_items_first_line_thirditem_text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    width: 297px;
+    height: 113px;
+}
+.second_section_thirdblock_items_first_line_thirditem_text h3{
+    width: 297px;
+    height: 27px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+.second_section_thirdblock_items_first_line_thirditem_text p{
+    width: 299px;
+    height: 66px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+/* Цифра 4 */
+.second_section_thirdblock_items_second_line{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+    width: 440px;
+    height: 172px;
+
+}
+.second_section_thirdblock_items_second_line_firstitem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+
+    width: 440px;
+    height: 172px;
+
+}
+.second_section_thirdblock_items_second_line_firstitem img{
+    width: 115px;
+    height: 172px;
+
+    font-family: 'Vampiro One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 172px;
+    line-height: 100%;
+    color: #001140;
+}
+.second_section_thirdblock_items_second_line_firstitem_text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    width: 285px;
+    height: 113px;
+
+}
+.second_section_thirdblock_items_second_line_firstitem_text h3{
+    width: 285px;
+    height: 27px;
+    
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    
+    color: #000000;
+}
+.second_section_thirdblock_items_second_line_firstitem_text p{
+    width: 285px;
+    height: 66px;
+    
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    
+    color: #000000;
+}
+
+/* Трудоустройство */
+.second_section_fourthblock{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0 auto;
+    width: 1400px;
+    height: 756px;
+
+}
+.second_section_fourthblock_items{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
+
+    width: 1400px;
+    height: 661px;
+
+    /* Blue (tolko svetlee) */
+
+    background: #529FD1;
+    border-radius: 12px;
+}
+.second_section_fourthblock_items_header{
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+
+    width: 1320px;
+    height: 120px;
+
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+.second_section_fourthblock_items_header_items{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    width: 1280px;
+    height: 80px;
+}
+.second_section_fourthblock_items_header_items h3{
+    width: 133px;
+    height: 33px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+.second_section_fourthblock_items_header_items p{
+    width: 126px;
+    height: 27px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+
+}
+/* Первый квадрат контента */
+.second_section_fourthblock_items_maincontent{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 167px;
+    gap: 20px;
+
+    width: 665px;
+    height: 421px;
+
+    background: #FFFFFF;
+    border-radius: 12px;
+
+}
+.second_section_fourthblock_items_renctagle{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+    width: 1320px;
+    height: 421px;
+}
+.second_section_fourthblock_items_maincontent_items{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 625px;
+    height: 196px;
+}
+.second_section_fourthblock_items_maincontent_items_firstline{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    width: 625px;
+    height: 52px;
+
+}
+.second_section_fourthblock_items_maincontent_items_firstline_firstitem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 195px;
+    height: 52px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+#rectangle{
+    width: 32px;
+    height: 32px;
+
+    background: #D9D9D9;
+}
+.second_section_fourthblock_items_maincontent_items_firstline_firstitem p{
+    width: 65px;
+    height: 27px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    white-space: nowrap
+}
+/* Второй квадрат контента */
+.second_section_fourthblock_items_maincontent_items_money{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+
+    width: 615px;
+    height: 421px;
+
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+.second_section_fourthblock_items_maincontent_items_money_firstitem{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 5px;
+    width: 575px;
+    height: 96px;
+    background: #D6D6D6;
+    border-radius: 12px;
+}
+#first_item_price{
+    width: 160px;
+    height: 44px;
+
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #1B1B1B;
+}
+.second_section_fourthblock_items_maincontent_items_money_firstitem p{
+    width: 178px;
+    height: 27px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #1B1B1B;
+    white-space: nowrap;
+
+}
+.second_section_fourthblock_items_maincontent_items_money_seconditem{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 5px;
+
+    width: 575px;
+    height: 96px;
+
+    background: #8E8E8E;
+    border-radius: 12px;
+}
+#second_item_price{
+    width: 179px;
+    height: 44px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #1B1B1B;
+}
+.second_section_fourthblock_items_maincontent_items_money_seconditem p{
+    width: 187px;
+    height: 27px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #1B1B1B;
+    white-space: nowrap;
+}
+.second_section_fourthblock_items_maincontent_items_money_thirditem{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 5px;
+
+    width: 575px;
+    height: 96px;
+
+    background: #404040;
+    border-radius: 12px;
+}
+#third_item_price{
+    width: 179px;
+    height: 44px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+
+}
+.second_section_fourthblock_items_maincontent_items_money_thirditem p{
+    width: 183px;
+    height: 27px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
